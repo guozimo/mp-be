@@ -11,7 +11,7 @@ module.exports = [
   {
     chapterId: 1,
     chapterName: '第二章 基本知识',
-    people: 0,
+    people: 80,
     planType: 0,
     current: '30',
     totle: '60',
@@ -20,7 +20,7 @@ module.exports = [
   {
     chapterId: 2,
     chapterName: '第三章 基本定义',
-    people: 0,
+    people: 1000,
     planType: 0,
     current: '20',
     totle: '50',
@@ -37,8 +37,8 @@ module.exports = [
   },
   {
     chapterId: 4,
-    chapterName: '第五章 基本定义',
-    people: 0,
+    chapterName: '第五章 基本定义区分',
+    people:880,
     planType: 0,
     current: '20',
     totle: '50',
