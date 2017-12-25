@@ -1,47 +1,47 @@
 module.exports = [
   {
     chapterId: 0,
-    chapterName: '第一章',
+    chapterName: '第一章 绪论',
     people: 10,
     planType: 0,
-    current: 'string',
-    totle: 'string',
+    current: '30',
+    totle: '60',
     totleTime: 0
   },
   {
-    chapterId: 0,
-    chapterName: '第二章',
+    chapterId: 1,
+    chapterName: '第二章 基本知识',
     people: 0,
     planType: 0,
-    current: 'string',
-    totle: 'string',
+    current: '30',
+    totle: '60',
     totleTime: 0
   },
   {
-    chapterId: 0,
-    chapterName: '第三章',
+    chapterId: 2,
+    chapterName: '第三章 基本定义',
     people: 0,
     planType: 0,
-    current: 'string',
-    totle: 'string',
+    current: '20',
+    totle: '50',
     totleTime: 0
   },
   {
-    chapterId: 0,
-    chapterName: '第四章',
+    chapterId: 3,
+    chapterName: '第四章 基本定义',
     people: 0,
     planType: 0,
-    current: 'string',
-    totle: 'string',
+    current: '20',
+    totle: '50',
     totleTime: 0
   },
   {
-    chapterId: 0,
-    chapterName: '第五章',
+    chapterId: 4,
+    chapterName: '第五章 基本定义',
     people: 0,
     planType: 0,
-    current: 'string',
-    totle: 'string',
+    current: '20',
+    totle: '50',
     totleTime: 0
   }
 ]
