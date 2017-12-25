@@ -23,10 +23,14 @@ app.use(bodyparser({
 app.use(json())
 app.use(require('koa-static')(`${__dirname}/public`))
 
+app.use(response_formatter)
 app.use(views(`${__dirname}/views`, {
   extension: 'pug'
 }))
-app.use(response_formatter)
+
+// routes
+app.use(index.routes(), index.allowedMethods())
+app.use(api.routes(), api.allowedMethods())
 
 // logger
 if (config.log) {
@@ -50,10 +54,6 @@ if (config.log) {
   })
 }
 
-
-// routes
-app.use(index.routes(), index.allowedMethods())
-app.use(api.routes(), api.allowedMethods())
 
 // error-handling
 app.on('error', (err, ctx) => {
