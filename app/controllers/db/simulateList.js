@@ -3,7 +3,7 @@ module.exports = [
     "examPapersId": 0,
     "examPaperName": "2017初中教师资格证模拟套卷",
     "finish": true,
-    "people": 36888,
+    "people": 3688888,
     "current": 10,
     "totle": 50
   },
