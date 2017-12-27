@@ -38,7 +38,7 @@ module.exports = [
   {
     chapterId: 4,
     chapterName: '第五章 基本定义区分',
-    people:880,
+    people: 880,
     planType: 0,
     current: '20',
     totle: '50',
