@@ -33,7 +33,7 @@ app.use(index.routes(), index.allowedMethods())
 app.use(api.routes(), api.allowedMethods())
 
 // logger
-if (config.log) {
+if (config.log || 1) {
   app.use(async (ctx, next) => {
   // 响应开始时间
     const start = new Date()
