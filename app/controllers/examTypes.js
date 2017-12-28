@@ -1,5 +1,5 @@
 const examTypesList = require('./db/examTypeList')
 //
-exports.getexamTypesList = async (ctx, next) => {
+exports.getExamTypeList = async (ctx, next) => {
   ctx.body = examTypesList
 }

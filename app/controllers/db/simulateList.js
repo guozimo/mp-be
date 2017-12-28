@@ -4,6 +4,7 @@ module.exports = [
     "examPaperName": "2017初中教师资格证模拟套卷",
     "finish": true,
     "people": 3688888,
+    "click": true,
     "current": 10,
     "totle": 50
   },
@@ -11,6 +12,7 @@ module.exports = [
     "examPapersId": 0,
     "examPaperName": "2017初中教师资格证模拟套卷",
     "finish": false,
+    "click": true,
     "people": 36888,
     "current": 20,
     "totle": 60
@@ -19,6 +21,7 @@ module.exports = [
     "examPapersId": 0,
     "examPaperName": "2017初中教师资格证模拟套卷",
     "finish": false,
+    "click": true,
     "people": 36888,
     "current": 15,
     "totle": 40
@@ -26,6 +29,7 @@ module.exports = [
   {
     "examPapersId": 0,
     "examPaperName": "2017初中教师资格证模拟套卷",
+    "click": false,
     "finish": false,
     "people": 36888,
     "current": 30,
@@ -35,6 +39,7 @@ module.exports = [
     "examPapersId": 0,
     "examPaperName": "2017初中教师资格证模拟套卷",
     "finish": false,
+    "click": false,
     "people": 36888,
     "current": 36,
     "totle": 60

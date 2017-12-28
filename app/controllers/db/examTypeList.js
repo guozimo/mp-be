@@ -1,4 +1,4 @@
-module.exports=[
+module.exports = [
   {
     "id": 1,
     "primaryCategories": "清华大学工商管理",

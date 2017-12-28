@@ -7,8 +7,7 @@
 
 const examQuestion = require('./db/examQuestion')
 const chapters = require('./db/chapters')
-const CollectionList = require('./db/collectionList')
-const errorList = require('./db/errorList')
+const mycollectionOrErrorList = require('./db/collectionList')
 const simulateList = require('./db/simulateList')
 const historyList = require('./db/historyList')
 // 输出考试列表
@@ -20,14 +19,18 @@ exports.examQuestion = async (ctx, next) => {
 exports.chapters = async (ctx, next) => {
   ctx.body = chapters
 }
-// 我的收藏二级列表
-exports.getCollectionList = async (ctx, next) => {
-  ctx.body = CollectionList
-}
-// 我的错题二级列表
-exports.getErrorList = async (ctx, next) => {
-  ctx.body = errorList
-}
+// // 我的收藏二级列表
+// exports.getCollectionList = async (ctx, next) => {
+//   ctx.body = CollectionList
+// }
+// // 我的错题二级列表
+// exports.getErrorList = async (ctx, next) => {
+//   ctx.body = errorList
+// }
+
+exports.getMycollectionOrError = async (ctx, next) => {
+    ctx.body = mycollectionOrErrorList
+  }
 exports.getSimulateList = async (ctx, next) => {
   ctx.body = simulateList
 }
