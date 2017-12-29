@@ -36,7 +36,7 @@ module.exports = [
       errorNum: 10,
       errorPeople: 10,
       errorRate: 10,
-      errorFatherRate: 10
+      errorFatherRate: 2
     }
   },
   {
@@ -77,7 +77,7 @@ module.exports = [
       errorNum: 10,
       errorPeople: 10,
       errorRate: 10,
-      errorFatherRate: 10
+      errorFatherRate: 2.5
     }
   }, {
     // 题目 id
@@ -118,7 +118,7 @@ module.exports = [
       errorNum: 10,
       errorPeople: 10,
       errorRate: 10,
-      errorFatherRate: 10
+      errorFatherRate: 3
     }
   },
   {
@@ -160,7 +160,7 @@ module.exports = [
       errorNum: 10,
       errorPeople: 10,
       errorRate: 10,
-      errorFatherRate: 10
+      errorFatherRate: 3.4
     }
   },
   {
@@ -201,7 +201,7 @@ module.exports = [
       errorNum: 10,
       errorPeople: 10,
       errorRate: 10,
-      errorFatherRate: 10
+      errorFatherRate: 3.8
     }
   }, {
     // 题目 id
@@ -242,7 +242,7 @@ module.exports = [
       errorNum: 10,
       errorPeople: 10,
       errorRate: 10,
-      errorFatherRate: 10
+      errorFatherRate: 4.8
     }
   },
   {
@@ -284,7 +284,7 @@ module.exports = [
       errorNum: 10,
       errorPeople: 10,
       errorRate: 10,
-      errorFatherRate: 10
+      errorFatherRate: 2.3
     }
   },
   {
@@ -325,7 +325,7 @@ module.exports = [
       errorNum: 10,
       errorPeople: 10,
       errorRate: 10,
-      errorFatherRate: 10
+      errorFatherRate: 2.9
     }
   }, {
     // 题目 id
@@ -366,7 +366,7 @@ module.exports = [
       errorNum: 10,
       errorPeople: 10,
       errorRate: 10,
-      errorFatherRate: 10
+      errorFatherRate: 4.2
     }
   },
   {
@@ -408,7 +408,7 @@ module.exports = [
       errorNum: 10,
       errorPeople: 10,
       errorRate: 10,
-      errorFatherRate: 10
+      errorFatherRate: 1.9
     }
   }
 ]

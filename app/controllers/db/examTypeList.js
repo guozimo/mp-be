@@ -4,7 +4,7 @@ module.exports = [
     "primaryCategories": "清华大学工商管理",
     "parentId": 0,
     "description": "string",
-    "item": [
+    "items": [
       {
         "id": 11,
         "primaryCategories": "初级",
