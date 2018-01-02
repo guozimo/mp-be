@@ -6,7 +6,8 @@ module.exports = [
     planType: 0,
     current: '30',
     totle: '60',
-    totleTime: 0
+    totleTime: 0,
+    errorNum: '300'
   },
   {
     chapterId: 1,
@@ -15,7 +16,8 @@ module.exports = [
     planType: 0,
     current: '30',
     totle: '60',
-    totleTime: 0
+    totleTime: 0,
+    errorNum: '200'
   },
   {
     chapterId: 2,
@@ -24,7 +26,8 @@ module.exports = [
     planType: 0,
     current: '20',
     totle: '50',
-    totleTime: 0
+    totleTime: 0,
+    errorNum: '222'
   },
   {
     chapterId: 3,
@@ -33,7 +36,8 @@ module.exports = [
     planType: 0,
     current: '20',
     totle: '50',
-    totleTime: 0
+    totleTime: 0,
+    errorNum: '100'
   },
   {
     chapterId: 4,
@@ -42,6 +46,7 @@ module.exports = [
     planType: 0,
     current: '20',
     totle: '50',
-    totleTime: 0
+    totleTime: 0,
+    errorNum: '888'
   }
 ]
