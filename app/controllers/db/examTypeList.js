@@ -30,7 +30,7 @@ module.exports = [
     "primaryCategories": "高级会计师",
     "parentId": 0,
     "description": "string",
-    "item": [
+    "items": [
       {
         "id": 21,
         "primaryCategories": "一级",
