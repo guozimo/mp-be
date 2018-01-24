@@ -6,6 +6,7 @@ const QuestionTypes = require('./QuestionTypes')
 const userAnswer = require('./userAnswer')
 const answerPlans = require('./answerPlans')
 const locations = require('./locations')
+const pkArena = require('./pkArena')
 
 router.prefix('/api')
 
@@ -16,4 +17,5 @@ router.use('/questionTypes', QuestionTypes.routes(), QuestionTypes.allowedMethod
 router.use('/userAnswer', userAnswer.routes(), userAnswer.allowedMethods())
 router.use('/answerPlans', answerPlans.routes(), answerPlans.allowedMethods())
 router.use('/locations', locations.routes(), subjects.allowedMethods())
+router.use('/pkArena', pkArena.routes(), pkArena.allowedMethods())
 module.exports = router
