@@ -7,6 +7,8 @@ router.get('/pkQuestions', pkArena.pkQuestions)
 router.post('/pkAnswer', pkArena.pkAnswer)
 router.get('/danGrdingTips', pkArena.danGrdingTips)
 router.get('/pkFinal', pkArena.pkFinal)
+router.get('/pkMatch', pkArena.pkMatch)
+router.get('/pkMatch', pkArena.pkQuestions)
 
 
 module.exports = router
