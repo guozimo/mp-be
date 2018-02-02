@@ -3,6 +3,7 @@ const users = require('./users')
 
 const examTypes = require('./examTypes')
 const subjects = require('./subjects')
+
 const QuestionTypes = require('./QuestionTypes')
 const userAnswer = require('./userAnswer')
 const answerPlans = require('./answerPlans')
