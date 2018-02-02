@@ -8,7 +8,7 @@ const answerPlans = require('./answerPlans')
 const locations = require('./locations')
 const pkArena = require('./pkArena')
 const ranking = require('./ranking')
-// /pkArena/pkQuestions
+
 
 router.prefix('/api')
 
