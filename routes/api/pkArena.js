@@ -10,7 +10,7 @@ router.get('/pkFinal', pkArena.pkFinal)
 router.get('/pkMatch', pkArena.pkMatch)
 router.get('/pkMatch', pkArena.pkQuestions)
 router.get('/test', (ctx) => {
-  ctx.body = 'test'
+  ctx.body = 'test dididid'
 })
 
 
