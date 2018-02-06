@@ -2,8 +2,8 @@ module.exports = [
   {
     questionSum: 5,
     questionCurrentNum: 1,
-    targetUserDuration: 8,
-    targetUserScore: 90,
+    targetUserDuration: 3,
+    targetUserScore: 10,
     targetUserScoreSum: 10,
     questionId: 0,
     questionDesc: '挖掘机学校哪家强',
