@@ -2,7 +2,7 @@ module.exports = [
   {
     questionSum: 5,
     questionCurrentNum: 1,
-    targetUserDuration: 10,
+    targetUserDuration: 5,
     targetUserScore: 10,
     targetUserScoreSum: 10,
     questionId: 0,
@@ -30,7 +30,7 @@ module.exports = [
   {
     questionSum: 5,
     questionCurrentNum: 2,
-    targetUserDuration: 0,
+    targetUserDuration: 10,
     targetUserScore: 90,
     targetUserScoreSum: 20,
     questionId: 1,
@@ -58,7 +58,7 @@ module.exports = [
   {
     questionSum: 5,
     questionCurrentNum: 3,
-    targetUserDuration: 5,
+    targetUserDuration: 10,
     targetUserScore: 90,
     targetUserScoreSum: 30,
     questionId: 2,
@@ -86,7 +86,7 @@ module.exports = [
   {
     questionSum: 5,
     questionCurrentNum: 4,
-    targetUserDuration: 10,
+    targetUserDuration: 8,
     targetUserScore: 90,
     targetUserScoreSum: 40,
     questionId: 3,
@@ -114,7 +114,7 @@ module.exports = [
   {
     questionSum: 5,
     questionCurrentNum: 5,
-    targetUserDuration: 5,
+    targetUserDuration: 2,
     targetUserScore: 90,
     targetUserScoreSum: 100,
     questionId: 4,

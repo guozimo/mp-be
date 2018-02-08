@@ -1,27 +1,27 @@
 module.exports = [
   {
     currentUserScore: 10,
-    currentUserScoreSum: 0,
+    currentUserScoreSum: 10,
     correctAnswer: 'A',
     targetUserAnswer: 'D'
   },
   {
     currentUserScore: 20,
-    currentUserScoreSum: 10,
+    currentUserScoreSum: 30,
     correctAnswer: 'B',
-    targetUserAnswer: 'B'
+    targetUserAnswer: ''
   },
   {
     currentUserScore: 30,
-    currentUserScoreSum: 30,
+    currentUserScoreSum: 40,
     correctAnswer: 'B',
-    targetUserAnswer: 'B'
+    targetUserAnswer: ''
   },
   {
-    currentUserScore: 10,
-    currentUserScoreSum: 0,
+    currentUserScore: 50,
+    currentUserScoreSum: 50,
     correctAnswer: 'A',
-    targetUserAnswer: ''
+    targetUserAnswer: 'A'
   },
   {
     currentUserScore: 100,
