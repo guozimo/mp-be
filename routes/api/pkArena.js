@@ -9,6 +9,9 @@ router.get('/danGrdingTips', pkArena.danGrdingTips)
 router.get('/pkFinal', pkArena.pkFinal)
 router.get('/pkMatch', pkArena.pkMatch)
 router.get('/pkMatch', pkArena.pkQuestions)
+router.get('/test', (ctx) => {
+  ctx.body = '测试测试测试'
+})
 
 
 module.exports = router

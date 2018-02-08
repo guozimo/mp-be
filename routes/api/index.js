@@ -1,14 +1,16 @@
 const router = require('koa-router')()
 const users = require('./users')
+
 const examTypes = require('./examTypes')
 const subjects = require('./subjects')
+
 const QuestionTypes = require('./QuestionTypes')
 const userAnswer = require('./userAnswer')
 const answerPlans = require('./answerPlans')
 const locations = require('./locations')
 const pkArena = require('./pkArena')
 const ranking = require('./ranking')
-// /pkArena/pkQuestions
+
 
 router.prefix('/api')
 

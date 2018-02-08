@@ -3,7 +3,7 @@ module.exports = [
     currentUserScore: 10,
     currentUserScoreSum: 0,
     correctAnswer: 'A',
-    targetUserAnswer: 'B'
+    targetUserAnswer: 'D'
   },
   {
     currentUserScore: 20,
@@ -21,7 +21,7 @@ module.exports = [
     currentUserScore: 10,
     currentUserScoreSum: 0,
     correctAnswer: 'A',
-    targetUserAnswer: 'B'
+    targetUserAnswer: ''
   },
   {
     currentUserScore: 100,
