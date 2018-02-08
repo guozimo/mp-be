@@ -2,7 +2,7 @@ module.exports = [
   {
     questionSum: 5,
     questionCurrentNum: 1,
-    targetUserDuration: 3,
+    targetUserDuration: 10,
     targetUserScore: 10,
     targetUserScoreSum: 10,
     questionId: 0,
@@ -30,7 +30,7 @@ module.exports = [
   {
     questionSum: 5,
     questionCurrentNum: 2,
-    targetUserDuration: 9,
+    targetUserDuration: 0,
     targetUserScore: 90,
     targetUserScoreSum: 20,
     questionId: 1,
