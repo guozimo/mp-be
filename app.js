@@ -11,7 +11,7 @@ const config = require('./config')
 const response_formatter = require('./middlewares/response_formatter')
 const index = require('./routes/index')
 const api = require('./routes/api')
-
+// require('./routes/socket/index')
 
 // error handler
 onerror(app)

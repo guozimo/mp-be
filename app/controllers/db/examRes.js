@@ -1,71 +1,20 @@
 module.exports = {
-  userAnswerId: 1234,
-  answerPlanId: 4321,
-  planType: 'string',
-  examPaperId: 1234,
-  duration: 100,
-  userId: 2222,
-  score: 10,
-  correctRate: 30,
-  wrongRate: 70,
-  wrongCount: 3,
-  level: 5,
-  integral: 10,
-  integralAdd: 20,
-  questions: [
-    {
-      questionId: '1',
-      answerDesc: 'string',
-      createDate: 'string',
-      duration: 0,
-      answerCorrect: true,
-      correctAnswer: 'string',
-      correctAnswerDesc: 'string'
-    },
-    {
-      questionId: '2',
-      answerDesc: 'string',
-      createDate: 'string',
-      duration: 0,
-      answerCorrect: true,
-      correctAnswer: 'string',
-      correctAnswerDesc: 'string'
-    },
-    {
-      questionId: '3',
-      answerDesc: 'string',
-      createDate: 'string',
-      duration: 0,
-      answerCorrect: true,
-      correctAnswer: 'string',
-      correctAnswerDesc: 'string'
-    },
-    {
-      questionId: '4',
-      answerDesc: 'string',
-      createDate: 'string',
-      duration: 0,
-      answerCorrect: false,
-      correctAnswer: 'string',
-      correctAnswerDesc: 'string'
-    },
-    {
-      questionId: '5',
-      answerDesc: 'string',
-      createDate: 'string',
-      duration: 0,
-      answerCorrect: true,
-      correctAnswer: 'string',
-      correctAnswerDesc: 'string'
-    },
-    {
-      questionId: '6',
-      answerDesc: 'string',
-      createDate: 'string',
-      duration: 0,
-      answerCorrect: false,
-      correctAnswer: 'string',
-      correctAnswerDesc: 'string'
-    }
-  ]
+  answerPlanId: 179,
+  userAnswerId: 141,
+  planType: 'CHAPTER_PRACTICE',
+  examPaperId: 1,
+  duration: 4,
+  userId: 9,
+  questions: [{
+    questionId: 28839, answerDesc: 'A', answerDate: '2018-02-28 11:44:15', duration: 2, answerCorrect: true, correctAnswer: 'A', correctAnswerDesc: '李白是唐朝诗人。'
+  }, {
+    questionId: 145965, answerDesc: 'A', answerDate: '2018-02-28 11:44:15', duration: 2, answerCorrect: false, correctAnswer: 'B', correctAnswerDesc: '第5章第222页。马克思指出：“发展社会劳动生产力，是资本主义的历史任务和存在理由。资本正是以此不自觉地为一个更高级的生产形式创造物质条件--0108'
+  }],
+  score: 48,
+  correctRate: 50,
+  wrongRate: 50,
+  wrongCount: 1,
+  levelView: {
+    levelNum: 0, levelName: 'LV0', maxIntegral: 50, currentIntegral: 0
+  }
 }
