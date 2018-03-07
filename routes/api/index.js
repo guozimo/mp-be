@@ -10,8 +10,6 @@ const answerPlans = require('./answerPlans')
 const locations = require('./locations')
 const pkArena = require('./pkArena')
 const ranking = require('./ranking')
-
-
 router.prefix('/api')
 
 router.use('/users', users.routes(), users.allowedMethods())
